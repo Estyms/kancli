@@ -1,18 +1,19 @@
 # Kancli
 
-Welcome to our demo repo for a kanban board for the command line. 
+This app is a fork of the [kancli demo](https://github.com/charmbracelet/kancli)
+made on video by [Bashbunni](https://mastodon.technology/web/@bashbunni@mastodon.social).
 
-There is a video to go along with this repo on our [YouTube
-channel](https://youtube.com/c/charmcli) if you would like a full walk through
-tutorial on the topic.
+In this fork I've fixed all the bugs I've found as well as implemented online save using charm.
 
-## Feedback
+## Usage
 
-We'd love to hear your thoughts on this tutorial. Feel free to drop us a note!
+All the keybinds are shown below the kanban board, the major additions is the ability 
+to delete a task by pressing ``d/backspace`` on a task
 
-* [Twitter](https://twitter.com/charmcli)
-* [The Fediverse](https://mastodon.technology/@charm)
-* [Slack](https://charm.sh/slack)
+Your tasks are saved in charm when you enter the **Add Task** view and when you quit the app using ``q/esc``.
+
+You can quit without saving by pressing ``ctrl+c``
+
 
 ## License
 
@@ -20,8 +21,4 @@ We'd love to hear your thoughts on this tutorial. Feel free to drop us a note!
 
 ***
 
-Part of [Charm](https://charm.sh).
-
-<a href="https://charm.sh/"><img alt="The Charm logo" src="https://stuff.charm.sh/charm-badge.jpg" width="400"></a>
-
-Charm热爱开源 • Charm loves open source
+_Made with [Charm](https://charm.sh)._
